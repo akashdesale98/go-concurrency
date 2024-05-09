@@ -1,0 +1,3 @@
+module WorkerPool
+
+go 1.21.6
