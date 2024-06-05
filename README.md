@@ -7,7 +7,7 @@
 ## Cocnurrency Vs. Parallelism
 
 - Concurrency is about dealing lots of things at once. Concurrency is about the structure.
-- Parallelism is about doing lots of things at once.Parallerlism is about execution.
+- Parallelism is about doing lots of things at once. Parallerlism is about execution.
 - When we say that parallelism is about the execution of tasks that are independent of each other, we first need to create these independent tasks through concurrency. That is what we do when we design and structure a big problem into smaller problems which can be solved independently. Concurrency will ensure that these independent tasks are able to coordinate and synchronize with each other such that we get the correct final result. Therefore concurrency has to be there for parallelism to exist.
 - A famous talk on [concurrency is not parallelism](https://go.dev/blog/waza-talk).
 - A paper on [Communicating Sequential Processes](https://dl.acm.org/doi/10.1145/359576.359585) by Tony Hoare, written in 1978.
